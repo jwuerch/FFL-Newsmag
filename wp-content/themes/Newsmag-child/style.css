@@ -33,13 +33,84 @@ div.td-post-header.td-pb-padding-side > header > div {
 	border-bottom:1px solid #eaeaea;
 	box-shadow:0 0 0 1px #fff inset!important;
 }
+.td_block_wrap > .td_block_inner {
+	padding-left:13px;
+	padding-right:13px;
+}
+.td_module_6 .entry-thumb {
+	transition:all .2s ease-in-out;
+	border:1px solid #d9d9d9!important;
+}
+.td_module_6 .entry-thumb:hover {
+	transition:all .2s ease-in-out;
+	opacity:.9 !important;
+}
+
+.td_block_widget {
+	margin-bottom:25px;
+	box-shadow:0 1px 6px 0 rgba(17,17,17,.37);
+}
+.widget ul {
+	padding-left:10px;
+	padding-right:10px;
+	margin-top:-20px;
+}
+
+.td_module_wrap:hover .entry-title a, .td_mod_mega_menu:hover .entry-title a {
+	color:#222;
+}
+.td_module_wrap .entry-title a:hover {
+	color:#4799da;
+}
+.td_block_7 {
+	background:#FFF;
+	padding-top:0px;
+}
+.td-block-span12 {
+	padding-left:0;
+	padding-right:0;
+	margin-top:15px;
+	border-bottom:1px #f0f0f0 dashed;
+	padding-bottom:10px;
+}
+.td_module_6 .entry-date {
+	display:none;
+}
+.td_module_6 .entry-title {
+	font-size:13px;
+	font-family:'Open Sans',sans-serif;
+	font-weight:400;
+}
+.td_block_7 > .block-title {
+	margin:0;
+}
+
+
+aside.widget.widget_ws_fb_like_box > div.block-title {
+	height:20px;
+	border-top:1px solid #4799da;
+	font-weight:700;
+	background:#f1f1f3;
+	box-shadow:0 0 0 1px #fff inset!important;
+}
+aside.widget.widget_ws_fb_like_box > div.block-title > span {
+	font-family:'Open Sans',sans-serif;
+	font-weight:700;
+	top:-10px;
+	position:relative;
+	font-size:12px;
+}
+.fb_iframe_widget {
+	margin-top:-10px;
+}
+
 .widget {
 	padding-left:0px;
 	padding-right:0px;
 	max-width:300px;
 	box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
 	background:#fff;
-	margin-bottom:20px;
+	margin-bottom:25px;
 }
 .block-title > span {
 	background:none;
@@ -76,15 +147,15 @@ div.td-post-header.td-pb-padding-side > header > div {
 	#td-outer-wrap {
 		background:#EEE;
 	}
-	.td-main-sidebar {
+	div.td-pb-span4.td-main-sidebar	{
 		border:none !important;
-		padding-top:10px;
+		margin-top:30px !important;
 	}
 	.td-main-content {
 		border:none !important;
 	}
 	.td-container-border:after {
-		background-color:#EEE !important;
+		width:0;
 	}
 	.td-pb-border-top {
 		border:none;
@@ -308,6 +379,7 @@ div.td-post-header.td-pb-padding-side > header > div {
 	}
 	.td_module_11 .item-details {
 		padding-top:14px;
+		padding-right:15px;
 	}
 
 	div.td-pb-span4.td-main-sidebar {
