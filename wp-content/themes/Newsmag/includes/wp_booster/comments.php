@@ -161,5 +161,6 @@ function td_comment( $comment, $args, $depth ) {
             </article>
     <?php
     }
+
 }
 ?>

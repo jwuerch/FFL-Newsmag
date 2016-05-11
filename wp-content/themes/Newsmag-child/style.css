@@ -7,8 +7,6 @@ Author URI: 	http://themeforest.net/user/tagDiv/portfolio
 Template:       Newsmag                             
 Version:        1.1
 */
-
-
 /*  ----------------------------------------------------------------------------
     This file will load automatically when the child theme is active. You can use it
     for custom CSS.
@@ -19,6 +17,9 @@ div.td-pb-span8.td-main-content > div > div > div.item-details > h3 {
 	font-weight:700;
 	font-size:21px;
 	line-height:24px;
+}
+.td-post-next-prev {
+	border-bottom:1px solid #e6e6e6;
 }
 div.td-post-header.td-pb-padding-side > header > div {
 	display:flex;
@@ -43,9 +44,23 @@ div.td-post-header.td-pb-padding-side > header > div {
 }
 .td_module_6 .entry-thumb:hover {
 	transition:all .2s ease-in-out;
-	opacity:.9 !important;
+}
+.td-post-content figure img, .td_block_related_posts .entry-thumb {
+	border:1px solid #d9d9d9;
 }
 
+.synved-social-size-48 {
+	position:relative;
+	left:12px;
+	top:10px;
+}
+
+img:hover {
+	opacity:.9 !important;
+}
+.textwidget > div > img {
+
+}
 .td_block_widget {
 	margin-bottom:25px;
 	box-shadow:0 1px 6px 0 rgba(17,17,17,.37);
@@ -55,16 +70,27 @@ div.td-post-header.td-pb-padding-side > header > div {
 	padding-right:10px;
 	margin-top:-20px;
 }
-
+.widget_recent_entries li a {
+	padding-bottom:5px;
+	border-bottom:1px dashed #f1f1f1;
+}
+.widget_recent_entries {
+	min-height:318px;
+}
+.widget_recent_entries li {
+	height:50px;
+	border-bottom:none;
+}
 .td_module_wrap:hover .entry-title a, .td_mod_mega_menu:hover .entry-title a {
 	color:#222;
 }
 .td_module_wrap .entry-title a:hover {
-	color:#4799da;
+	color:#4db2ec;
 }
 .td_block_7 {
 	background:#FFF;
 	padding-top:0px;
+	max-width:300px;
 }
 .td-block-span12 {
 	padding-left:0;
@@ -72,6 +98,9 @@ div.td-post-header.td-pb-padding-side > header > div {
 	margin-top:15px;
 	border-bottom:1px #f0f0f0 dashed;
 	padding-bottom:10px;
+}
+.td-block-span12:last-child {
+	border-bottom:none;
 }
 .td_module_6 .entry-date {
 	display:none;
@@ -93,6 +122,10 @@ aside.widget.widget_ws_fb_like_box > div.block-title {
 	background:#f1f1f3;
 	box-shadow:0 0 0 1px #fff inset!important;
 }
+.td_block_7 {
+	margin:0 auto;
+	margin-bottom:25px;
+}
 aside.widget.widget_ws_fb_like_box > div.block-title > span {
 	font-family:'Open Sans',sans-serif;
 	font-weight:700;
@@ -102,6 +135,17 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 }
 .fb_iframe_widget {
 	margin-top:-10px;
+}
+.fb-comments-box {
+	text-align:center;
+	margin-top:25px;
+	padding-top:15px;
+	padding-bottom:5px;
+	padding-left:20px;
+	padding-right:20px;
+}
+.td_block_related_posts .td-next-prev-wrap {
+	margin-right:50px;
 }
 
 .widget {
@@ -149,13 +193,16 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 	}
 	div.td-pb-span4.td-main-sidebar	{
 		border:none !important;
-		margin-top:30px !important;
+		margin-top:25px !important;
 	}
 	.td-main-content {
 		border:none !important;
 	}
 	.td-container-border:after {
 		width:0;
+	}
+	.td-blog-index .td-page-header {
+		margin-bottom:5px;
 	}
 	.td-pb-border-top {
 		border:none;
@@ -216,6 +263,10 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 		font-weight:400;
 		transition:all .2s ease-in-out;
 
+	}
+.td-pb-span8 .td-paragraph-padding-1, .td-pb-span8 .td-paragraph-padding-1, .mceContentBody-max-width-small .td-paragraph-padding-1 {
+		padding-left:0 !important;
+		padding-right:0 !important;
 	}
 	.td-post-author-name a:hover {
 		color:#4799da;
@@ -341,10 +392,6 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 	blockquote p {
 		color:#222 !important;
 	}
-	/* Remove when done */
-	.td-front-end-display-block {
-		top:50%;
-	}
 	.td-post-header {
 		background:#FAFAFA;
 		padding-bottom:20px;
@@ -356,23 +403,51 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 
 
 	div.td-container.td-post-template-7 > div > div > div.td-pb-span8.td-main-content {
-		background:#FFF;
-		box-shadow:0 1px 6px 0 rgba(17,17,17,.37);
+		margin-top:25px;
 	}
 	.td-footer-container, .td-sub-footer-container {
 		max-width:100%;
 		width:100%;
 	}
+	.post, .td_block_related_posts, .fb-comments-box {
+		background:#FFF;
+		box-shadow:0 1px 6px 0 rgba(17,17,17,.37);
+	}
+	.td-related-title {
+		padding-left:13px;
+		padding-right:13px;
+	}
+	.td_block_related_posts {
+		padding-top:1px;
+		margin-top:25px;
+	}
+	.td-front-end-display-block {
+		left:0;
+	}
+
 	.td-footer-container {
 		border-top:3px #4799da solid !important;
+		margin-top:20px;
+	}
+	.td_module_7 .entry-date {
+		display:none;
+	}
+	.td_module_7 .entry-title {
+		font-size:13px;
+		font-family:'Open Sans',sans-serif;
+		font-weight:400;
+	}
+	.td_module_7 {
+		padding-bottom:10px;
+		border-bottom:1px dashed #d9d9d9;
+		margin-bottom:10px;
+	}
+	.td_module_7 .entry-thumb {
+		border:1px solid #d9d9d9;
 	}
 @media only screen and (min-width: 1068px) {
 	.td-post-template-7, .td-header-container, .td-blog-index {
 		width:1048px;
-	}
-	.td-pb-span8 .td-paragraph-padding-1, .td-pb-span8 .td-paragraph-padding-1, .mceContentBody-max-width-small .td-paragraph-padding-1 {
-		padding-left:10px;
-		padding-right:10px;
 	}
 	.td-content-wrap {
 		margin:0 auto;
@@ -412,14 +487,25 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 
 }
 
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:767px) {
 	.td-pb-row {
 		width:90% !important;
 		margin:0 auto;
 	}
-}
-
-@media only screen and (max-width:450px) {
+	.widget {
+		margin:0 auto;
+		margin-bottom:25px;
+		max-width:300px;
+	}
+	.td_block_related_posts .entry-title a {
+		font-size:14px;
+		font-weight:600;
+		line-height:20px;
+	}
+	.td-post-source-tags {
+		padding-left:20px;
+		padding-right:20px;
+	}
 	.td_module_11 {
 		padding:0;
 		background:#FFF;
@@ -429,6 +515,23 @@ aside.widget.widget_ws_fb_like_box > div.block-title > span {
 		padding-left:10px;
 		padding-right:10px;
 		margin-bottom:30px !important;
-
 	}
+	.td-post-sharing {
+		display:flex;
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.td-post-header {
+		padding-left:20px;
+		padding-right:20px;
+	}
+	.td-classic-sharing {
+		margin-top:15px;
+		margin-left:20px;
+	}
+	.td-pb-span8 .td-paragraph-padding-1, .td-pb-span8 .td-paragraph-padding-1, .mceContentBody-max-width-small .td-paragraph-padding-1 {
+		padding-left:10px;
+		padding-right:10px;
+	}
+
 }
