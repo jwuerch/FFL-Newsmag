@@ -1,0 +1,328 @@
+/*
+Theme Name:     Newsmag Child theme
+Theme URI: 		http://themeforest.net/user/tagDiv/portfolio
+Description:    Child theme made by tagDiv
+Author:         tagDiv
+Author URI: 	http://themeforest.net/user/tagDiv/portfolio
+Template:       Newsmag                             
+Version:        1.1
+*/
+
+
+/*  ----------------------------------------------------------------------------
+    This file will load automatically when the child theme is active. You can use it
+    for custom CSS.
+*/
+
+div.td-pb-span8.td-main-content > div > div > div.item-details > h3 {
+	font-family: Verdana,Geneva,sans-serif !important;
+	font-weight:700;
+	font-size:21px;
+	line-height:24px;
+}
+div.td-post-header.td-pb-padding-side > header > div {
+	display:flex;
+}
+
+.td-category a {
+	font-family: "Open Sans",sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+	color:#FFF;
+	padding-top:2px;
+	padding-left:8px;
+	padding-right:8px;
+	padding-bottom:2px;
+	font-size:11px;
+	font-style:normal;
+}
+
+.sub-item-details-1 {
+	display:flex;
+	flex-grow:2;
+	justify-content:space-between;
+	padding-right:40px;
+}
+
+	.td-blog-index {
+		background:none;
+	}
+	#td-outer-wrap {
+		background:#EEE;
+	}
+	.td-main-sidebar {
+		border:none !important;
+	}
+	.td-main-content {
+		border:none !important;
+	}
+	.td-container-border:after {
+		background-color:#EEE !important;
+	}
+	.td-pb-border-top {
+		border:none;
+	}
+	.td_module_11 {
+		box-shadow: 0 1px 6px 0 rgba(17,17,17,.37);
+	}
+	.sub-item-details {
+		height:50px;
+		display: flex;
+		justify-content: space-between;
+		margin-top:-15px;
+		padding-left:15px;
+		background:#FAFAFA;
+		border:1px solid #e6e6e6;
+	}
+	.td-read-more {
+		top:0 !important;
+	}
+	.td-post-category {
+		position:relative;
+		top:27%;
+		font-size:11px;
+		font-family:Verdana,Geneva,sans-serif;
+		font-weight:500;
+		padding:3px 11px;
+		line-height:14px;
+		background:rgb(198, 201, 202);
+		color:#FFF;
+		transition:all .2s ease-in-out;
+	}
+	.td-post-category:hover {
+		background:#4799da;
+		transition:all .2s ease-in-out;
+	}
+	.sub-author-box, .td-read-more, .author-box {
+		height:100%;
+	}
+
+	.sub-category-box, .td-post-author-name, .td_module_11 .td-read-more {
+		height:48px;
+	}
+	.td-read-more {
+		width:48px;
+		background:#F4F4F4;
+		border-left:1px solid #e6e6e6;
+	}
+	.td-post-author-name {
+		margin-right:0;
+		margin-bottom:0 !important;
+	}
+	.td-post-author-name a {
+		position:relative;
+		top:27%;
+		font-style:normal;
+		font-family:Verdana,Geneva,sans-serif;
+		font-size:13px;
+		font-weight:400;
+		transition:all .2s ease-in-out;
+
+	}
+	.td-post-author-name a:hover {
+		color:#4799da;
+		transition:all .2s ease-in-out;
+
+	}
+	.td-excerpt {
+		font-size:13.5px;
+		font-family:Verdana,Geneva,sans-serif;
+		line-height:21px;
+	}
+	.td-read-more a {
+		background:none;
+		position:relative;
+		width:48px !important;
+		height:48px !important;
+		font-family:Andale Mono !important;
+		font-size:20px !important;
+		top:25%;
+		font-weight:700;
+		border-radius:0;
+		color:#4799da;
+		padding-left:18.75px;
+		padding-right:19px;
+		padding-top:13px;
+		padding-bottom:14px;
+		transition:all .2s ease-in-out;
+	}
+	.sf-menu .td-menu-item > a {
+		font-weight:600;
+	}
+	.td-read-more a:hover {
+		background:#4799da;
+		transition:all .2s ease-in-out;
+		color:#FFF;
+	}
+	div.post-date-box > div {
+		top:25%;
+		position:relative;
+	}
+
+	div.post-date-box > div > time {
+		font-family:Verdana,Geneva,sans-serif;
+		font-size:12.5px;
+		font-style:normal;
+		color:#000;
+	}
+	.hyphen {
+		font-family:Verdana,Geneva,sans-serif;
+		font-size:13px;
+		position:relative;
+		top:26%;
+		left:3px;
+	}
+	div.td-post-header > header > div > div.td-post-author-name, div.td-post-header > header > div > div.post-date-box {
+		margin-right:10px;
+	}
+	div.post-date-box {
+		height:51px;
+	}
+	.td-category a {
+		top:28%;
+		position:relative;
+		background: rgb(77, 178, 236) !important;
+
+	}
+	.td-category li {
+		height:48px;
+	}
+	div.td-pb-span8.td-main-content > div > div > div.item-details > div.meta-info {
+		position:absolute;
+		left:-25%;
+		background:#4799da;
+		font-size:12px;
+		font-weight:700;
+		font-family: Lato, sans-serif;
+		font-style:normal;
+		color:#FFF;
+		margin-bottom:0;
+		padding-left:14px;
+		padding-right:14px;
+		padding-top:3px;
+		padding-bottom:3px;
+	}
+	.td-post-date {
+		position:relative;
+		top:3px;
+	}
+	.post p {
+		font-family:Verdana,Geneva,sans-serif;
+		line-height:25px;
+		font-size:15px;
+	}
+	.post header h1 {
+		font-family: 'Open Sans', sans-serif;
+		font-size:26px;
+		font-weight:600;
+		margin-bottom:0;
+		margin-top:0;
+	}
+	div.td-post-content.td-pb-padding-side > div > p > a {
+	color:#2361a1;
+	text-decoration:underline !important;
+	}
+	div.td-post-content.td-pb-padding-side > div > p > a:hover {
+		text-decoration:none !important;
+		color:#4799da;
+	}
+	#td-header-menu {
+		position:relative;
+		left:-21px;
+	}
+	div.td-module-image > a {
+		display:none !important;
+	}
+	blockquote p {
+		color:#222 !important;
+	}
+	/* Remove when done */
+	.td-front-end-display-block {
+		top:50%;
+	}
+	.td-post-header {
+		background:#FAFAFA;
+		padding-bottom:20px;
+		border-bottom:1px solid #ededed;
+	}
+	.td-post-template-7 {
+		background:none;
+	}
+
+
+	div.td-container.td-post-template-7 > div > div > div.td-pb-span8.td-main-content {
+		background:#FFF;
+		box-shadow:0 1px 6px 0 rgba(17,17,17,.37);
+	}
+	.td-footer-container, .td-sub-footer-container {
+		max-width:100%;
+		width:100%;
+	}
+	.td-footer-container {
+		border-top:3px #4799da solid !important;
+	}
+@media only screen and (min-width: 1068px) {
+	.td-post-template-7, .td-header-container, .td-blog-index {
+		width:1048px;
+	}
+	.td-pb-span8 .td-paragraph-padding-1, .td-pb-span8 .td-paragraph-padding-1, .mceContentBody-max-width-small .td-paragraph-padding-1 {
+		padding-left:10px;
+		padding-right:10px;
+	}
+	.td-content-wrap {
+		margin:0 auto;
+	}
+	.td_module_11 .item-details {
+		padding-top:14px;
+	}
+
+	div.td-pb-span4.td-main-sidebar {
+		width:300px;
+		float:right;
+	}
+	.td-header-main-menu.td-affix {
+		width:1048px;
+	}
+	.td_module_11 {
+		margin-bottom:25px;
+		height:228px;
+		padding-left:0px;
+		padding-right:0px;
+		background:#FFF;
+	}
+	.td-main-content {
+		width:723px;
+	}
+	.td-ss-main-sidebar, .td-ss-row .td-pb-span4 .wpb_wrapper {
+		width:300px !important;
+	}
+	.item-details {
+		margin-bottom:0px !important;
+		max-height:178px;
+	}
+	.td-author-box {
+
+	}
+
+}
+
+@media only screen and (max-width:600px) {
+	.td-pb-row {
+		width:90% !important;
+		margin:0 auto;
+	}
+}
+
+@media only screen and (max-width:450px) {
+	.td_module_11 {
+		padding:0;
+		background:#FFF;
+		margin-bottom:25px;
+	}
+	.item-details {
+		padding-left:10px;
+		padding-right:10px;
+		margin-bottom:30px !important;
+
+	}
+}
