@@ -23,6 +23,32 @@ div.td-pb-span8.td-main-content > div > div > div.item-details > h3 {
 div.td-post-header.td-pb-padding-side > header > div {
 	display:flex;
 }
+.block-title {
+	width:100%;
+	background:#F5F5F5;
+	margin-top:0 !important;
+	margin-bottom:0 !important;
+	padding-top:11px;
+	padding-bottom:11px;
+	border-bottom:1px solid #eaeaea;
+	box-shadow:0 0 0 1px #fff inset!important;
+}
+.widget {
+	padding-left:0px;
+	padding-right:0px;
+	max-width:300px;
+	box-shadow: 0 1px 6px 0 rgba(17,17,17,.37)!important;
+	background:#fff;
+	margin-bottom:20px;
+}
+.block-title > span {
+	background:none;
+	font-size:18px;
+	font-family:'Open Sans', arial, sans-serif;
+	font-weight:700;
+	color:#222;
+	text-transform:none;
+}
 
 .td-category a {
 	font-family: "Open Sans",sans-serif;
@@ -52,6 +78,7 @@ div.td-post-header.td-pb-padding-side > header > div {
 	}
 	.td-main-sidebar {
 		border:none !important;
+		padding-top:10px;
 	}
 	.td-main-content {
 		border:none !important;
@@ -210,6 +237,13 @@ div.td-post-header.td-pb-padding-side > header > div {
 		font-family:Verdana,Geneva,sans-serif;
 		line-height:25px;
 		font-size:15px;
+	}
+	.page-nav {
+		height:50px;
+		padding-top:10px;
+		background:#FFF;
+		box-shadow: 0 1px 6px 0 rgba(17,17,17,.37);
+
 	}
 	.post header h1 {
 		font-family: 'Open Sans', sans-serif;
